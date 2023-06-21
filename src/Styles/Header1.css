@@ -1,0 +1,19 @@
+.First_Navbar{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.First_Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+ 
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}

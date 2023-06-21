@@ -1,0 +1,181 @@
+.Background_ImageSoftware{
+   background-image: url(../Images/Group\ 253.png);
+    background-repeat: no-repeat;
+    width: 100% 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+.Solution_Business{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 745px) {
+    .Background_ImageSoftware{
+        padding: 2rem 1rem;
+        /* background: url(/static/media/resp_strategy.5647306….svg); */
+        margin-top: 3rem;
+        border-radius: 135px;
+        background-size: cover;
+       
+     
+    
+    }
+    
+    }
+
+    @media screen and (max-width: 1200px) {
+        
+           
+         
+        
+        
+        
+        }
+
+
+
+
+    
+      .Registration_Form{
+        background-color: bisque;
+      }
+      
+      input[type=text],select{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-bottom: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password],select{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-bottom: 4px;
+        box-sizing: border-box;
+      }
+      button{
+        width: 25%;
+        background-color: rgb(146, 222, 146);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover{
+        background-color: rgb(26, 174, 19);
+      }
+      .header{
+        width: 95%;
+        background-color: rgb(139, 139, 180);
+        padding: 1px 20px;
+        color: white;
+      }
+      .ui-define{
+        background-color: rgb(234, 226, 226);
+        margin-left: 25%;
+        width: 50%;
+        padding: 20px 30px;
+        margin-top: 5%;
+      }
+
+
+
+
+
+
+/* .backgroundImageSoftware{
+    background-image: url(../Images//Group\ 253.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 68vh;
+   
+
+}
+
+.SoftwareSolutionHeading{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+} */
+
+.Rating{
+    text-align: center;
+    padding-top: 5rem;
+    color: white;
+}
+.SoftwareParagrph{
+    text-align: center;
+    padding-top: 5rem;
+    color: white;
+    text-decoration: solid;
+}
+
+.RatingSpan{
+    color: #00D8FF;
+}
+
+.CustomerReview{
+    background-image: url(../Images/h2-bg-section-06-1.png);
+  background-size: 100%;
+    background-repeat: no-repeat;
+    height: 63vh;
+
+}
+
+.Testimonial{
+    background-color: white;
+    border: none;
+    color: rgb(11, 120, 175);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+    margin-top: 4rem;
+  
+}
+
+.glow-on-Choose{
+    background-image: linear-gradient(to right, rgb(67, 115, 175) , rgb(14, 0, 138));
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+
+.carousel_slide{
+    padding-top: 6rem;
+
+}
+
+@media screen and (max-width: 745px) {
+    
+    
+    .CustomerReview{
+       display: none;
+        
+     
+    }
+    
+    }
+
+.Years_of_All{
+    margin-bottom: 12rem;
+}
+
+  
+
+
+

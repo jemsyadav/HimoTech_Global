@@ -1,0 +1,280 @@
+.Home_Background{
+ background-image: url('/src/Images/HomeBackground1.png');
+padding-top: 10px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ 
+
+}
+
+.Backgroun2{
+    background-image: url('../Images/HomeBackground2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;  
+
+}
+@media screen and (max-width: 745px) {
+.Backgroun2{
+    background-image: url('../Images/HomeBackground2.png');
+    background-position: center center;
+    background-repeat: no-repeat; background-size: cover;
+    padding-top: 11rem;
+    
+
+}
+}
+
+@media screen and (max-width:745px) {
+    .Home_Project_Logo {
+  display: none;
+    }
+    
+}
+
+@media screen and (max-width:745px) {
+.Second_Heading{
+ margin-top: 3rem;
+}
+}
+
+
+
+.Home_Page_Logo{
+    text-align: center;
+    padding-bottom: 100px;   
+}
+
+.Home_Project_Logo{
+    margin-top: 4rem;
+    
+}
+
+.Heading{
+    font-size: 60px;
+    text-shadow: #f7f7f7;
+    text-decoration: solid;
+}
+
+.Home_Heading{
+    background-color: #f7f7f7; /* Green */
+    border: none;
+    color: rgb(11, 120, 175);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+.Heading{
+    color: white;
+}
+.Sumbit_Button_Home{
+    background-image: linear-gradient(to right, rgb(67, 115, 175) , rgb(14, 0, 138));
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+.Home_text_body{
+   padding-top: 10rem;
+}
+
+.Ui_Ux{
+   width: 150px;
+   height: 150px;
+   text-align: center;
+ 
+   background-color: rgb(184, 183, 183);
+  color: whitesmoke;
+   padding-top: 1.5rem;
+}
+
+.Ui_Ux:hover {
+    background-image: linear-gradient(to right, rgb(39, 27, 150) , rgb(88, 163, 255));
+    
+  }
+.All_Services{
+     display: flex;
+  justify-content: center;
+   flex-wrap: wrap; 
+   gap: 5rem;
+  margin-top: -14rem;
+   
+}
+
+@media screen and (max-width: 745px) {
+    .glow-on-hover{
+        display: none;
+      
+    }
+  }
+
+
+
+
+  .Second_Heading{
+    background-color: #f7f7f7; /* Green */
+    border: none;
+    color: rgb(63, 15, 255);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4rem;
+    box-shadow: 0px 5px rgb(192, 190, 190);
+}
+
+.line{
+    
+    font-size: larger;
+    text-decoration: solid;
+    border-top: 7px dotted  rgb(27, 0, 135);;
+   
+}
+
+.MoneyAndTechinacal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.MoneyBackSpace{
+    padding-left: 1rem;
+}
+
+.the_best_it_service_company{
+    padding-top: 6rem;
+}
+
+.call_Services{
+    display: flex;
+    gap: 2rem;
+}
+
+.About_Our_Company{
+    padding-bottom: 6rem;
+}
+
+.Sumbit_Button_call_services{
+    background-image: linear-gradient(to right, rgb(67, 115, 175) , rgb(14, 0, 138));
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+
+.About_Company_Heading{
+    text-decoration: solid;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-display: 3px;
+}
+
+
+
+
+/* Animated Button  */
+
+.glow-on-hover {
+    width: 170px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(67, 115, 175) , rgb(14, 0, 138));
+    left: 0;
+    top: 0;
+    border-radius: 111px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+/* ......................................................... */
+
+
+.slider1{
+   
+     background-image: url(../Images/Group\ 190.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     text-align: center;
+  
+     
+    
+  
+}
+
+.our_awesome_services{
+   
+}
+
+.Services_Heading{
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(11, 120, 175);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+    margin-top: 8rem;
+   
+}
+
+.DECIATED_SPAN{
+    color: #5333F2;
+}
+

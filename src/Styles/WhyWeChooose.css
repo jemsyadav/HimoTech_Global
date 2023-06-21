@@ -1,0 +1,46 @@
+.WhyChooseUs{
+   /* background-image: url('../Images/Group\ 251.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+width: 100vh; */
+
+}
+
+.whychooseus_Heading{
+    text-align: center;
+    padding-bottom: 3rem;
+
+}
+
+.whychoose_aboutus{
+ padding-left: 6rem;  
+ padding-top: 3rem; 
+}
+
+.WhyChooseUsBUtton{
+    background-color:#cacaca;
+    border: none;
+    color: rgb(11, 120, 175);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+    margin-top: 8rem;
+}
+
+@media screen and (max-width:745px) {
+    .WhyChooseUsBUtton {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    
+    }
+}
+
+@media screen and (max-width:745px) {
+    .whychoose_aboutus {
+   
+   text-align: center;
+   padding-left: 0rem;
+    }
+}
+

@@ -1,0 +1,33 @@
+.Studies_Box{
+    background-image: url(../Images/Path\ 327.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.Studies_Heading{
+    background-color: #f7f7f7; /* Green */
+    border: none;
+    color: rgb(63, 15, 255);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4rem;
+    box-shadow: 0px 5px rgb(192, 190, 190);
+    margin-top: 4rem;
+}
+
+.Span_Transforming{
+    color: rgb(63, 15, 255);
+}
+
+.Images{
+   padding-left: 1rem;
+
+}
+
+/* .card-body{
+    padding: 4rem;
+    background-color: aqua;
+} */
