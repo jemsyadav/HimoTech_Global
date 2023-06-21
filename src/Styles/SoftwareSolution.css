@@ -175,6 +175,15 @@
     margin-bottom: 12rem;
 }
 
+@media screen and (max-width: 992px) {
+    
+  .CustomerReview {
+
+      background-size: cover;
+  }
+  
+}
+
   
 
 

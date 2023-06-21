@@ -2,14 +2,12 @@ import React, { useState } from 'react'
 import '../../src/Styles/Home.css'
 import Slider from '../Components/Slider'
 import Studies from '../Components/Studies'
-import Header1 from '../Components/Header1'
 import join from '../Images/joinover.png'
 import moonland from '../Images/Vector (1).png'
 import Zethan from '../Images/zethan (2).f0abdad123b9972e6994 (1).png'
 import betterphyshology from '../Images/logo (2).png'
 import uiux from '../Images/uiux.png'
 import Navbar1 from '../Components/Header'
-import path1 from '../Images/path1.png'
 import businessconsulation from '../Images/Icon material-business.png'
 import websitedevlopment from '../Images/Icon material-web.png'
 import support from '../Images/Icon simple-staticman.png'
@@ -18,10 +16,10 @@ import playimage from '../Images/playImage.png'
 import group172 from '../Images/Group 172.png'
 import group173 from '../Images/Group 173.png'
 import group166 from '../Images/Group 166.png'
-import uiuxcolor from '../Images/uiux.png'
 import WhyWeChoose from '../Components/WhyWeChoose'
 import SoftwareSolution from '../Components/SoftwareSolution'
 import Footer1 from '../Components/Footer1'
+import Counter from '../Components/Counter'
 
 
 const Home = () => {
@@ -39,6 +37,7 @@ const handleTextClose=()=>{
     <div>
     
    <Navbar1/>
+  
       <div className=" Home_Background container-fluid">
       <div className="container">
         <div className="col-md-2">
@@ -191,6 +190,7 @@ the industry's ever since the 1500s,</p>  <br />
 
   <SoftwareSolution/>
   <Footer1/>
+ 
 
 
  

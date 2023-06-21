@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../src/Styles/SoftwareSolution.css'
 import developer from '../Images/Developer.png'
-import Login_Form from './Login_Form'
+
 
 const SoftwareSolution = () => {
   return (
@@ -83,7 +83,7 @@ the industry's ever since the 1500s,</p>
         </div>
       </div>
     </div>
-    <Login_Form/>
+ 
     </div>
   )
 }

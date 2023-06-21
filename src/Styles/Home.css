@@ -8,6 +8,23 @@ padding-top: 10px;
 
 }
 
+@media screen and (max-width:740px){
+    .Home_Background {
+       
+      
+        background-size: cover;
+       
+    }
+}
+
+@media screen and (max-width:580px){
+    .All_Services {
+      
+        margin-top: 1rem;
+    }
+   
+}
+
 .Backgroun2{
     background-image: url('../Images/HomeBackground2.png');
     background-repeat: no-repeat;
@@ -20,8 +37,6 @@ padding-top: 10px;
     background-position: center center;
     background-repeat: no-repeat; background-size: cover;
     padding-top: 11rem;
-    
-
 }
 }
 
